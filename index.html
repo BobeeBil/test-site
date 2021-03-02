@@ -8,8 +8,18 @@
     }
 </style>
 
+<script>
+    setInterval(() => {
+        if (document.getElementById("title").innerHTML == "headlights") {
+            document.getElementById("title").innerHTML = "headlice";
+        } else if (document.getElementById("title").innerHTML == "headlice") {
+            document.getElementById("title").innerHTML = "headlights";
+        }
+    }, 1000)
+</script>
+
 <head>
-    <title>gaming</title>
+    <title id="title">headlights</title>
     site only for gay people
 </head>
 
